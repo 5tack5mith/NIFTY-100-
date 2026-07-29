@@ -1,0 +1,38 @@
+# Data handling
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1
+
+# Analytics & stats
+scipy>=1.11
+scikit-learn>=1.3
+
+# Visualisation
+matplotlib>=3.7
+plotly>=5.18
+
+# Dashboard
+streamlit>=1.30
+
+# API
+fastapi>=0.110
+uvicorn>=0.27
+
+# PDF generation
+reportlab>=4.1
+
+# NLP
+nltk>=3.8
+
+# Testing
+pytest>=7.4
+pytest-html>=4.1
+
+# Dev tools
+black>=24.0
+ruff>=0.4
+pre-commit>=3.7
+
+# Config
+python-dotenv>=1.0
+PyYAML>=6.0

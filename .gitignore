@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment secrets/config
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Database (regenerated via `make load`, no need to version it)
+data/nifty100.db
+
+# Generated reports (regenerated via `make report`)
+reports/tearsheets/*.pdf
+reports/sector/*.pdf
+reports/portfolio/*.pdf
+reports/radar_charts/*.png
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+
+data/raw/*.xlsx
+data/supporting/*.xlsx
