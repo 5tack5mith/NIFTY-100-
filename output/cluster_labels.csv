@@ -1,0 +1,93 @@
+company_id,cluster_id,cluster_name,cluster_name_display,distance_from_centroid,any_feature_imputed,data_quality_caveat
+ABB,3,High-Quality Growth,High-Quality Growth,1.4663805127212965,True,False
+ADANIENSOL,2,Value Cyclicals,Value Cyclicals,1.5820516418248993,True,False
+ADANIENT,2,Value Cyclicals,Value Cyclicals,1.6040085270258315,True,False
+ADANIGREEN,1,Emerging Growth,Emerging Growth,1.4102495912860071,True,False
+ADANIPORTS,3,High-Quality Growth,High-Quality Growth,1.640808187449777,False,False
+ADANIPOWER,3,High-Quality Growth,High-Quality Growth,2.3985458044609977,False,False
+AMBUJACEM,2,Value Cyclicals,Value Cyclicals,1.3490878354909501,True,False
+APOLLOHOSP,2,Value Cyclicals,Value Cyclicals,0.8072703558122791,False,False
+ASIANPAINT,3,High-Quality Growth,High-Quality Growth,0.9863169532879302,False,False
+ATGL,3,High-Quality Growth,High-Quality Growth,1.652841403679007,True,False
+AXISBANK,1,Emerging Growth,Emerging Growth,0.8142928294979471,True,False
+BAJAJ-AUTO,3,High-Quality Growth,High-Quality Growth,1.2075139805525088,False,False
+BAJAJFINSV,1,Emerging Growth,Emerging Growth,1.2890313277390903,True,False
+BAJAJHLDNG,3,High-Quality Growth,High-Quality Growth,2.4338070590913716,False,False
+BAJFINANCE,1,Emerging Growth,Emerging Growth,1.5670160164442686,True,False
+BANKBARODA,1,Emerging Growth,Emerging Growth,0.8670319818572213,True,False
+BEL,4,Defensive Dividend,"Defensive Dividend [UNRELIABLE -- scale anomaly in ROE/D-E input, see Sprint 2]",0.7011805926844248,True,True
+BHARTIARTL,2,Value Cyclicals,Value Cyclicals,0.9601574373832954,True,False
+BHEL,2,Value Cyclicals,Value Cyclicals,1.7381649028205315,True,False
+BOSCHLTD,0,Distressed,Distressed,0.6553046310796689,False,False
+BPCL,2,Value Cyclicals,Value Cyclicals,1.3583862049725817,True,False
+BRITANNIA,4,Defensive Dividend,Defensive Dividend,1.9518464832574531,False,False
+CANBK,1,Emerging Growth,Emerging Growth,1.5311996581163099,False,False
+CHOLAFIN,1,Emerging Growth,Emerging Growth,0.8439783239554883,True,False
+CIPLA,3,High-Quality Growth,High-Quality Growth,1.5652152200482878,False,False
+COALINDIA,4,Defensive Dividend,Defensive Dividend,1.7557174340144126,False,False
+DABUR,0,Distressed,Distressed,0.4197074945426524,False,False
+DIVISLAB,3,High-Quality Growth,High-Quality Growth,1.099290708391062,False,False
+DLF,0,Distressed,Distressed,2.6148240638929927,False,False
+DMART,2,Value Cyclicals,Value Cyclicals,1.7583018005512039,True,False
+DRREDDY,0,Distressed,Distressed,0.6490965139689908,False,False
+EICHERMOT,0,Distressed,Distressed,1.208665484769077,False,False
+GAIL,2,Value Cyclicals,Value Cyclicals,0.40006631320751296,False,False
+GODREJCP,2,Value Cyclicals,Value Cyclicals,1.1618059131356269,True,False
+GRASIM,2,Value Cyclicals,Value Cyclicals,0.40426015559750256,True,False
+HAL,4,Defensive Dividend,"Defensive Dividend [UNRELIABLE -- scale anomaly in ROE/D-E input, see Sprint 2]",1.1978946006908526,True,True
+HAVELLS,0,Distressed,Distressed,1.1859184820175774,False,False
+HCLTECH,3,High-Quality Growth,High-Quality Growth,0.8163915356322605,False,False
+HDFCBANK,1,Emerging Growth,Emerging Growth,0.7414634298814393,True,False
+HDFCLIFE,2,Value Cyclicals,Value Cyclicals,1.9684896254259208,True,False
+HEROMOTOCO,2,Value Cyclicals,Value Cyclicals,1.5826071925237228,False,False
+HINDALCO,2,Value Cyclicals,Value Cyclicals,0.5134918237526479,False,False
+HINDUNILVR,2,Value Cyclicals,Value Cyclicals,1.076498534520068,False,False
+ICICIBANK,1,Emerging Growth,Emerging Growth,1.4972544021690655,False,False
+ICICIGI,3,High-Quality Growth,High-Quality Growth,1.3869320813583044,False,False
+ICICIPRULI,0,Distressed,Distressed,2.111615942139073,False,False
+INDIGO,4,Defensive Dividend,"Defensive Dividend [UNRELIABLE -- scale anomaly in ROE/D-E input, see Sprint 2]",2.2971778530945266,False,True
+INDUSINDBK,1,Emerging Growth,Emerging Growth,0.6422003190596212,True,False
+INFY,2,Value Cyclicals,Value Cyclicals,1.5020098902774919,False,False
+IOC,2,Value Cyclicals,Value Cyclicals,0.7357333678381028,True,False
+IRCTC,3,High-Quality Growth,High-Quality Growth,1.2937869747763993,False,False
+IRFC,1,Emerging Growth,Emerging Growth,0.6736614649147445,True,False
+ITC,3,High-Quality Growth,High-Quality Growth,1.5044079521429607,False,False
+JINDALSTEL,2,Value Cyclicals,Value Cyclicals,1.5503999165068576,True,False
+JIOFIN,3,High-Quality Growth,High-Quality Growth,2.320123209687777,True,False
+JSWENERGY,2,Value Cyclicals,Value Cyclicals,1.3445890627535189,True,False
+JSWSTEEL,2,Value Cyclicals,Value Cyclicals,0.9423860720679268,True,False
+KOTAKBANK,1,Emerging Growth,Emerging Growth,1.6770600139933514,True,False
+LICI,0,Distressed,Distressed,2.363823707379185,False,False
+LODHA,2,Value Cyclicals,Value Cyclicals,1.7098637567463986,True,False
+LT,4,Defensive Dividend,Defensive Dividend,1.1685463715892026,True,False
+LTIM,3,High-Quality Growth,High-Quality Growth,1.8789305307446345,False,False
+M&M,2,Value Cyclicals,Value Cyclicals,0.9067433766288558,True,False
+MARUTI,2,Value Cyclicals,Value Cyclicals,0.4282476391833385,False,False
+MOTHERSON,2,Value Cyclicals,Value Cyclicals,1.1108136602755307,False,False
+NAUKRI,3,High-Quality Growth,High-Quality Growth,1.5910213870607668,True,False
+NESTLEIND,4,Defensive Dividend,Defensive Dividend,1.2050878137869367,False,False
+NHPC,0,Distressed,Distressed,2.5935942345603937,False,False
+NTPC,2,Value Cyclicals,Value Cyclicals,0.6135355046966806,True,False
+ONGC,2,Value Cyclicals,Value Cyclicals,0.663219881814647,False,False
+PFC,1,Emerging Growth,Emerging Growth,1.6020217278037525,True,False
+PIDILITIND,3,High-Quality Growth,High-Quality Growth,0.886387205710003,False,False
+PNB,4,Defensive Dividend,Defensive Dividend,1.7455634747168893,True,False
+POWERGRID,3,High-Quality Growth,High-Quality Growth,2.3505671040082063,False,False
+RECLTD,1,Emerging Growth,Emerging Growth,1.1748728596939024,True,False
+RELIANCE,2,Value Cyclicals,Value Cyclicals,0.381542892874478,True,False
+SBILIFE,2,Value Cyclicals,Value Cyclicals,2.4511055810598474,True,False
+SBIN,0,Distressed,Distressed,0.4103723357600652,True,False
+SHREECEM,2,Value Cyclicals,Value Cyclicals,0.6053906422375475,False,False
+SHRIRAMFIN,1,Emerging Growth,Emerging Growth,1.0368635112755629,True,False
+SIEMENS,3,High-Quality Growth,High-Quality Growth,1.5885335304252668,False,False
+SUNPHARMA,3,High-Quality Growth,High-Quality Growth,1.3818373620882867,False,False
+TATACONSUM,0,Distressed,Distressed,1.559389620546922,False,False
+TATAMOTORS,2,Value Cyclicals,Value Cyclicals,1.510394673404403,True,False
+TATAPOWER,2,Value Cyclicals,Value Cyclicals,1.4597457449461417,False,False
+TATASTEEL,2,Value Cyclicals,Value Cyclicals,1.0149355301571272,True,False
+TCS,4,Defensive Dividend,Defensive Dividend,0.9515065440015212,False,False
+TECHM,2,Value Cyclicals,Value Cyclicals,0.7938421604606062,False,False
+TITAN,3,High-Quality Growth,High-Quality Growth,2.1329459472994916,False,False
+TORNTPHARM,2,Value Cyclicals,Value Cyclicals,1.2029491250307374,False,False
+TRENT,3,High-Quality Growth,High-Quality Growth,2.330315714831081,True,False
+TVSMOTOR,2,Value Cyclicals,Value Cyclicals,1.6481611729114096,True,False

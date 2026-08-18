@@ -1,0 +1,535 @@
+{
+  "info": {
+    "name": "Nifty 100 Financial Intelligence Platform API",
+    "description": "REST API over the Nifty 100 Financial Intelligence Platform's SQLite database.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "List Companies",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/companies?sector=&market_cap_category=&search=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "companies"
+          ],
+          "query": [
+            {
+              "key": "sector",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "market_cap_category",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "search",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Get Company",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/companies/{ticker}?year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "{ticker}"
+          ],
+          "query": [
+            {
+              "key": "year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Get Pl",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/companies/{ticker}/pl?from_year=&to_year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "{ticker}",
+            "pl"
+          ],
+          "query": [
+            {
+              "key": "from_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "to_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Get Bs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/companies/{ticker}/bs?from_year=&to_year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "{ticker}",
+            "bs"
+          ],
+          "query": [
+            {
+              "key": "from_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "to_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Get Cashflow",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/companies/{ticker}/cashflow?from_year=&to_year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "{ticker}",
+            "cashflow"
+          ],
+          "query": [
+            {
+              "key": "from_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "to_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Get Ratios",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/companies/{ticker}/ratios?year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "{ticker}",
+            "ratios"
+          ],
+          "query": [
+            {
+              "key": "year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "financial_ratios rows. Every row's ROCE, D/E, Asset Turnover, and\nBook Value/Share should carry the Sprint 2 caveat when that company-\nyear is flagged -- this is the endpoint most directly named by the\nSprint 6 kickoff instructions (\"Any FastAPI endpoint that returns\nthese companies' ratios should carry the same flag/caveat\")."
+      },
+      "response": []
+    },
+    {
+      "name": "Get Tearsheet",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/companies/{ticker}/tearsheet",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "{ticker}",
+            "tearsheet"
+          ],
+          "query": []
+        },
+        "description": "Binary PDF stream (spec: 'Triggers download')."
+      },
+      "response": []
+    },
+    {
+      "name": "Get Documents",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/companies/{ticker}/documents?from_year=&to_year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "{ticker}",
+            "documents"
+          ],
+          "query": [
+            {
+              "key": "from_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "to_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Run Screener",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/screener?min_roe=&max_de=&min_fcf=&sector=&min_rev_cagr_5yr=&min_pat_cagr_5yr=&max_pe=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "screener"
+          ],
+          "query": [
+            {
+              "key": "min_roe",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "max_de",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "min_fcf",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "sector",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "min_rev_cagr_5yr",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "min_pat_cagr_5yr",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "max_pe",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "List Sectors",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/sectors",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "sectors"
+          ],
+          "query": []
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Get Sector Companies",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/sectors/{sector}/companies?year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "sectors",
+            "{sector}",
+            "companies"
+          ],
+          "query": [
+            {
+              "key": "year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Get Peer Group",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/peers/{group_name}?year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "peers",
+            "{group_name}"
+          ],
+          "query": [
+            {
+              "key": "year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Compare To Peers",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/companies/{ticker}/peers/compare?year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "{ticker}",
+            "peers",
+            "compare"
+          ],
+          "query": [
+            {
+              "key": "year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Get Market Cap",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/market-cap/{ticker}?from_year=&to_year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "market-cap",
+            "{ticker}"
+          ],
+          "query": [
+            {
+              "key": "from_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            },
+            {
+              "key": "to_year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Get Portfolio Stats",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/portfolio/stats?year=",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "portfolio",
+            "stats"
+          ],
+          "query": [
+            {
+              "key": "year",
+              "value": "",
+              "description": "",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "P10-P90 percentile table for 10 KPIs across all 92 companies (spec)."
+      },
+      "response": []
+    },
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/v1/health",
+          "host": [
+            "http://localhost:8000"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "health"
+          ],
+          "query": []
+        },
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}

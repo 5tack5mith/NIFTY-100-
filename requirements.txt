@@ -27,6 +27,7 @@ nltk>=3.8
 # Testing
 pytest>=7.4
 pytest-html>=4.1
+httpx>=0.28  # required by FastAPI's TestClient (Sprint 6 API tests) -- not a runtime dependency of the app itself
 
 # Dev tools
 black>=24.0
