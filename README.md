@@ -66,6 +66,31 @@ and the dashboard all surface a warning wherever an affected company/year
 is shown; other years and other metrics for these companies are
 unaffected.
 
+## Deliverables tracker path notes
+
+Two deliverables exist with real, verified content but at a different
+path than the official 23-item deliverables tracker states -- noting it
+here rather than moving the files, since both paths were deliberate
+choices made at the time (documented in-code) and moving them now would
+just create a second inconsistency instead of fixing the first one:
+
+- **D-04** `exploratory_queries.sql` is at `db/exploratory_queries.sql`,
+  not `notebooks/exploratory_queries.sql` (the tracker's stated path) --
+  it lives next to `db/schema.sql` and `db/loader.py` since it's a
+  database artifact, and this project has no `notebooks/` directory.
+- **D-22** `analyst_guide.pdf` is at `reports/analyst_guide.pdf`, not
+  `docs/analyst_guide.pdf` -- `docs/` in this project holds only the
+  original spec PDF and the acceptance checklist; every other generated
+  report (tearsheets, sector reports, portfolio summary, this guide)
+  lives under `reports/`.
+
+Also worth knowing: D-17's tracker entry says "11 Sector Reports", but
+only **10** exist, matching the **10 real broad sectors** in the actual
+`sectors.xlsx` data (the spec's presumed 11th sector, "Conglomerates/
+Other", was found in Sprint 1 not to exist in the real dataset -- see
+`reports/sprint1_retro.md`). The report generator correctly reflects the
+real data; the tracker's count doesn't.
+
 ## Project structure
 
 ```
@@ -83,6 +108,14 @@ reports/           radar_charts/, sprint retrospectives, DQ review notes
 
 ## Project status
 
-Sprints 1-4 complete (Data Foundation, Ratio Engine, Screener & Peer
-Comparison, Dashboard & Valuation). See `reports/` for sprint
-retrospectives and data quality review notes.
+All 6 sprints complete (Data Foundation, Ratio Engine, Screener & Peer
+Comparison, Dashboard & Valuation, NLP/Cash Flow Intelligence/PDF
+Reports, KMeans Clustering/FastAPI/Testing/Documentation). See
+`reports/` for sprint retrospectives and data quality review notes, and
+`docs/acceptance_checklist.pdf` for the honest pass/partial/fail record
+against the spec's 20 acceptance criteria.
+
+Run `make load`, `make ratios`, `make test`, `make report`,
+`make dashboard`, or `make api` for the equivalent of the manual
+commands above -- all 6 targets are verified working via literal `make`
+invocation, not just the underlying python command.
