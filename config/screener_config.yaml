@@ -1,0 +1,80 @@
+# Screener thresholds -- Sprint 3, Day 15/16 deliverable.
+#
+# Every value here is meant to be analyst-editable without touching code
+# (spec 3.2: "Analyst defines thresholds per metric... no code changes
+# needed"). src/screener/engine.py reads this file and turns each preset
+# into a pandas boolean filter over the screener universe (financial_ratios
+# + market_cap + computed CAGR, one row per company using each company's
+# latest available year -- see engine.py for exactly what "latest" means
+# and why).
+#
+# The 6 presets below are exactly the ones named in spec Section 10,
+# Module 3, Feature 3.1. The individual threshold values under each preset
+# reference the named entries in `thresholds:` -- kept as one shared block
+# rather than duplicated per-preset, so tightening e.g. min_roe in one
+# place updates every preset that uses it.
+
+thresholds:
+  # Profitability / returns
+  min_roe_pct: 15.0              # Quality preset. Spec: "ROE>15%"
+  min_roce_pct: 15.0              # not spec-named for a preset, but the
+                                   # general "good" ROCE benchmark from
+                                   # Section 13 -- kept here so it's
+                                   # available to the custom filter builder
+                                   # even though no preset uses it directly.
+  min_npm_pct: 10.0               # Section 13 "good" NPM benchmark, same reasoning as above.
+
+  # Leverage
+  max_de: 1.0                     # Quality preset. Spec: "D/E<1"
+  max_de_non_financial: 5.0       # spec DQ/screener carve-out: "flag >5 for
+                                   # non-financials" -- financials are
+                                   # excluded from this specific threshold
+                                   # entirely (see engine.py's
+                                   # is_financial_sector handling), not
+                                   # just given a different number.
+
+  # Cash flow
+  min_fcf_cr: 0.0                 # Quality preset. Spec: "FCF>0"
+
+  # Valuation (from market_cap.xlsx, simulated data -- see engine.py note)
+  max_pe: 20.0                    # Value preset. Spec: "P/E<20"
+  max_pb: 3.0                     # Value preset. Spec: "P/B<3"
+  min_dividend_yield_pct: 2.0     # Dividend preset. Spec: "Yield>2%"
+
+  # Growth (computed on the fly via src/analytics/cagr.py, not stored)
+  min_pat_cagr_5yr_pct: 20.0      # Growth preset. Spec: "PAT CAGR >20% 5yr"
+  min_revenue_cagr_5yr_pct: 15.0  # Momentum preset. Spec: "Revenue CAGR >15% 5yr"
+
+  # Debt-free
+  max_borrowings_for_debt_free: 0.0  # Debt-Free preset. Spec: "borrowings=0"
+
+  # Additional filterable metrics -- not used by the 6 named presets, but
+  # exposed for the custom filter builder (3.2) / future screener API
+  # query params (Section 15: min_roe, max_de, min_fcf, min_rev_cagr_5yr,
+  # min_pat_cagr_5yr, max_pe already covered above; these three round out
+  # the set to 15 total thresholds).
+  min_interest_coverage: 3.0      # Section 13: ">3x = safe"
+  min_asset_turnover: 1.0         # Section 13: ">1x = efficient"
+  max_capex_intensity_pct: 8.0    # Section 13: ">8% = capital intensive" (upper bound as a screen)
+
+presets:
+  Quality:
+    min_roe_pct: true
+    max_de: true
+    min_fcf_cr: true
+
+  Value:
+    max_pe: true
+    max_pb: true
+
+  Growth:
+    min_pat_cagr_5yr_pct: true
+
+  Dividend:
+    min_dividend_yield_pct: true
+
+  Momentum:
+    min_revenue_cagr_5yr_pct: true
+
+  Debt-Free:
+    max_borrowings_for_debt_free: true

@@ -3,7 +3,7 @@ PY = py -3.14
 .PHONY: load ratios test report dashboard api clean
 
 load:
-	$(PY) src/etl/loader.py
+	$(PY) db/loader.py
 
 ratios:
 	$(PY) src/analytics/ratios.py
