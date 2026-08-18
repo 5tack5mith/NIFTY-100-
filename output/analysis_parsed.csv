@@ -1,0 +1,52 @@
+company_id,metric_type,period_years,value_pct,source_column,computed_cagr_pct,divergence_pct,cross_validation_flag
+HDFCBANK,Revenue Growth,10,21.0,compounded_sales_growth,20.887964823195592,0.11203517680440811,False
+HDFCBANK,Profit Growth,10,22.0,compounded_profit_growth,22.263903320427715,0.26390332042771547,False
+HDFCBANK,Stock Price CAGR,10,15.0,stock_price_cagr,,,False
+HDFCBANK,ROE,10,17.0,roe,,,False
+HDFCBANK,Revenue Growth,5,22.0,compounded_sales_growth,21.95098428169122,0.049015718308780265,False
+HDFCBANK,Profit Growth,5,23.0,compounded_profit_growth,23.865063572879073,0.8650635728790732,False
+HDFCBANK,Stock Price CAGR,5,8.0,stock_price_cagr,,,False
+HDFCBANK,ROE,5,17.0,roe,,,False
+HDFCBANK,Revenue Growth,3,30.0,compounded_sales_growth,30.186956140948773,0.186956140948773,False
+HDFCBANK,Profit Growth,3,26.0,compounded_profit_growth,27.12356908487252,1.1235690848725213,False
+HDFCBANK,Stock Price CAGR,3,8.0,stock_price_cagr,,,False
+HDFCBANK,ROE,3,17.0,roe,,,False
+HDFCBANK,Stock Price CAGR,1,13.0,stock_price_cagr,,,False
+INFY,Revenue Growth,10,12.0,compounded_sales_growth,11.852717458931128,0.14728254106887206,False
+INFY,Profit Growth,10,9.0,compounded_profit_growth,9.433477603192465,0.43347760319246476,False
+INFY,Stock Price CAGR,10,15.0,stock_price_cagr,,,False
+INFY,ROE,10,27.0,roe,,,False
+INFY,Revenue Growth,5,13.0,compounded_sales_growth,13.199100930556229,0.19910093055622902,False
+INFY,Profit Growth,5,11.0,compounded_profit_growth,11.239419983657939,0.23941998365793893,False
+INFY,Stock Price CAGR,5,22.0,stock_price_cagr,,,False
+INFY,ROE,5,29.0,roe,,,False
+INFY,Revenue Growth,3,5.0,compounded_sales_growth,15.216500798806365,10.216500798806365,True
+INFY,Profit Growth,3,10.0,compounded_profit_growth,10.558796476740762,0.5587964767407616,False
+INFY,Stock Price CAGR,3,4.0,stock_price_cagr,,,False
+INFY,ROE,3,31.0,roe,,,False
+INFY,Stock Price CAGR,1,27.0,stock_price_cagr,,,False
+SBILIFE,Revenue Growth,10,23.0,compounded_sales_growth,22.56159335451695,0.43840664548304886,False
+SBILIFE,Profit Growth,10,9.0,compounded_profit_growth,10.03348279743188,1.0334827974318799,False
+SBILIFE,Stock Price CAGR,10,9.0,stock_price_cagr,,,False
+SBILIFE,ROE,10,16.0,roe,,,False
+SBILIFE,Revenue Growth,5,24.0,compounded_sales_growth,24.231614182367544,0.23161418236754372,False
+SBILIFE,Profit Growth,5,6.0,compounded_profit_growth,7.374662152227485,1.3746621522274847,False
+SBILIFE,Stock Price CAGR,5,8.0,stock_price_cagr,,,False
+SBILIFE,ROE,5,14.0,roe,,,False
+SBILIFE,Revenue Growth,3,17.0,compounded_sales_growth,17.235877577119997,0.23587757711999657,False
+SBILIFE,Profit Growth,3,9.0,compounded_profit_growth,9.162347526806492,0.16234752680649223,False
+SBILIFE,Stock Price CAGR,3,7.0,stock_price_cagr,,,False
+SBILIFE,ROE,3,13.0,roe,,,False
+TCS,Revenue Growth,10,11.0,compounded_sales_growth,11.404391189817975,0.40439118981797506,False
+TCS,Profit Growth,10,9.0,compounded_profit_growth,9.07908137484088,0.07908137484088051,False
+TCS,Stock Price CAGR,10,14.0,stock_price_cagr,,,False
+TCS,ROE,10,40.0,roe,,,False
+TCS,Revenue Growth,5,10.0,compounded_sales_growth,10.463614801716602,0.4636148017166022,False
+TCS,Profit Growth,5,8.0,compounded_profit_growth,7.871172131953608,0.12882786804639235,False
+TCS,Stock Price CAGR,5,16.0,stock_price_cagr,,,False
+TCS,ROE,5,44.0,roe,,,False
+TCS,Revenue Growth,3,14.0,compounded_sales_growth,13.632864555506409,0.3671354444935915,False
+TCS,Profit Growth,3,12.0,compounded_profit_growth,12.286310199806593,0.2863101998065929,False
+TCS,Stock Price CAGR,3,8.0,stock_price_cagr,,,False
+TCS,ROE,3,47.0,roe,,,False
+TCS,Stock Price CAGR,1,16.0,stock_price_cagr,,,False

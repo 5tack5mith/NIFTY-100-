@@ -1,0 +1,656 @@
+company_id,type,rule_triggered,text,confidence_pct,data_quality_caveat
+ABB,pro,ROE > 20%,Strong return on equity of 32.5%.,88.7,False
+ABB,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 21.7% CAGR over the last 5 years.,82.4,False
+ABB,pro,NPM > 15%,High net profit margin of 20.5%.,77.5,False
+ABB,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 5.76) -- high-quality earnings.,85.0,False
+ABB,pro,Strong interest coverage,Comfortably covers interest obligations (141.8x coverage).,97.0,False
+ABB,pro,ROCE > 20%,Strong return on capital employed of 36.5%.,93.2,False
+ABB,pro,EPS CAGR > 12% (5yr),EPS has grown at a 21.7% CAGR over the last 5 years.,83.0,False
+ABB,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ADANIENSOL,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 17.9% CAGR over the last 5 years.,78.1,False
+ADANIENSOL,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 16.4% CAGR over the last 5 years.,76.6,False
+ADANIENSOL,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 4.39) -- high-quality earnings.,85.0,False
+ADANIENSOL,pro,EPS CAGR > 12% (5yr),EPS has grown at a 14.9% CAGR over the last 5 years.,73.9,False
+ADANIENSOL,con,D/E > 2,High leverage with a debt-to-equity ratio of 2.93.,81.8,False
+ADANIENSOL,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ADANIENSOL,con,Low asset turnover,Low asset turnover of 0.28x -- capital may be used inefficiently.,81.7,False
+ADANIENT,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 19.0% CAGR over the last 5 years.,79.4,False
+ADANIENT,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 45.8% CAGR over the last 5 years.,97.0,False
+ADANIENT,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 3.67) -- high-quality earnings.,85.0,False
+ADANIENT,pro,EPS CAGR > 12% (5yr),EPS has grown at a 32.0% CAGR over the last 5 years.,96.9,False
+ADANIENT,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ADANIGREEN,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 35.0% CAGR over the last 5 years.,97.0,False
+ADANIGREEN,con,D/E > 2,High leverage with a debt-to-equity ratio of 6.60.,97.0,False
+ADANIGREEN,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -0.02) -- possible accrual risk.,80.0,False
+ADANIGREEN,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ADANIGREEN,con,Low asset turnover,Low asset turnover of 0.10x -- capital may be used inefficiently.,91.3,False
+ADANIPORTS,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 19.6% CAGR over the last 5 years.,80.0,False
+ADANIPORTS,pro,NPM > 15%,High net profit margin of 30.3%.,90.7,False
+ADANIPORTS,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.92) -- high-quality earnings.,85.0,False
+ADANIPORTS,pro,Strong interest coverage,Comfortably covers interest obligations (5.9x coverage).,76.0,False
+ADANIPORTS,pro,EPS CAGR > 12% (5yr),EPS has grown at a 14.9% CAGR over the last 5 years.,73.9,False
+ADANIPORTS,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ADANIPORTS,con,Low asset turnover,Low asset turnover of 0.23x -- capital may be used inefficiently.,84.7,False
+ADANIPOWER,pro,ROE > 20%,Strong return on equity of 48.3%.,97.0,False
+ADANIPOWER,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+ADANIPOWER,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 16.1% CAGR over the last 5 years.,76.2,False
+ADANIPOWER,pro,NPM > 15%,High net profit margin of 41.4%.,97.0,False
+ADANIPOWER,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.32) -- high-quality earnings.,85.0,False
+ADANIPOWER,pro,Strong interest coverage,Comfortably covers interest obligations (8.3x coverage).,78.6,False
+ADANIPOWER,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+AMBUJACEM,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.47) -- high-quality earnings.,85.0,False
+AMBUJACEM,pro,Strong interest coverage,Comfortably covers interest obligations (28.3x coverage).,97.0,False
+AMBUJACEM,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+APOLLOHOSP,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+APOLLOHOSP,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 36.1% CAGR over the last 5 years.,97.0,False
+APOLLOHOSP,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 3.49) -- high-quality earnings.,85.0,False
+APOLLOHOSP,pro,Strong interest coverage,Comfortably covers interest obligations (5.6x coverage).,75.6,False
+APOLLOHOSP,pro,EPS CAGR > 12% (5yr),EPS has grown at a 30.0% CAGR over the last 5 years.,94.2,False
+APOLLOHOSP,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ASIANPAINT,pro,ROE > 20%,Strong return on equity of 29.7%.,85.6,False
+ASIANPAINT,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+ASIANPAINT,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 20.3% CAGR over the last 5 years.,80.8,False
+ASIANPAINT,pro,NPM > 15%,High net profit margin of 15.7%.,70.9,False
+ASIANPAINT,pro,Strong interest coverage,Comfortably covers interest obligations (41.0x coverage).,97.0,False
+ASIANPAINT,pro,Healthy dividend payout,Balanced dividend payout ratio of 58.0% -- rewards shareholders while retaining capital.,75.0,False
+ASIANPAINT,pro,ROCE > 20%,Strong return on capital employed of 31.8%.,87.9,False
+ASIANPAINT,pro,EPS CAGR > 12% (5yr),EPS has grown at a 21.0% CAGR over the last 5 years.,82.1,False
+ASIANPAINT,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+ATGL,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 21.1% CAGR over the last 5 years.,81.7,False
+ATGL,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 23.9% CAGR over the last 5 years.,84.8,False
+ATGL,pro,Strong interest coverage,Comfortably covers interest obligations (10.5x coverage).,81.1,False
+ATGL,pro,EPS CAGR > 12% (5yr),EPS has grown at a 24.6% CAGR over the last 5 years.,87.0,False
+ATGL,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+AXISBANK,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 39.7% CAGR over the last 5 years.,97.0,False
+AXISBANK,pro,NPM > 15%,High net profit margin of 22.7%.,80.4,False
+AXISBANK,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 4.97) -- high-quality earnings.,85.0,False
+AXISBANK,pro,EPS CAGR > 12% (5yr),EPS has grown at a 35.1% CAGR over the last 5 years.,97.0,False
+AXISBANK,con,D/E > 2,High leverage with a debt-to-equity ratio of 8.25.,97.0,False
+AXISBANK,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+AXISBANK,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+AXISBANK,con,Low asset turnover,Low asset turnover of 0.07x -- capital may be used inefficiently.,93.1,False
+BAJAJ-AUTO,pro,ROE > 20%,Strong return on equity of 26.6%.,82.3,False
+BAJAJ-AUTO,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+BAJAJ-AUTO,pro,NPM > 15%,High net profit margin of 17.2%.,72.9,False
+BAJAJ-AUTO,pro,Strong interest coverage,Comfortably covers interest obligations (174.4x coverage).,97.0,False
+BAJAJ-AUTO,pro,ROCE > 20%,Strong return on capital employed of 27.2%.,82.9,False
+BAJAJ-AUTO,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+BAJAJ-AUTO,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+BAJAJFINSV,pro,ROE > 20%,Strong return on equity of 25.9%.,81.4,False
+BAJAJFINSV,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 21.0% CAGR over the last 5 years.,81.6,False
+BAJAJFINSV,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 23.7% CAGR over the last 5 years.,84.6,False
+BAJAJFINSV,pro,EPS CAGR > 12% (5yr),EPS has grown at a 20.6% CAGR over the last 5 years.,81.6,False
+BAJAJFINSV,con,D/E > 2,High leverage with a debt-to-equity ratio of 4.79.,95.5,False
+BAJAJFINSV,con,FCF negative 3yr,Free cash flow has been negative for 3 consecutive years.,85.0,False
+BAJAJFINSV,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -2.99) -- possible accrual risk.,80.0,False
+BAJAJFINSV,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+BAJAJFINSV,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+BAJAJFINSV,con,Low asset turnover,Low asset turnover of 0.21x -- capital may be used inefficiently.,85.9,False
+BAJAJHLDNG,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 31.6% CAGR over the last 5 years.,93.3,False
+BAJAJHLDNG,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 19.3% CAGR over the last 5 years.,79.7,False
+BAJAJHLDNG,pro,NPM > 15%,High net profit margin of 432.7%.,97.0,False
+BAJAJHLDNG,pro,Strong interest coverage,Comfortably covers interest obligations (3764.5x coverage).,97.0,False
+BAJAJHLDNG,pro,EPS CAGR > 12% (5yr),EPS has grown at a 19.0% CAGR over the last 5 years.,79.4,False
+BAJAJHLDNG,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = 0.34) -- possible accrual risk.,80.0,False
+BAJAJHLDNG,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+BAJAJHLDNG,con,Low asset turnover,Low asset turnover of 0.03x -- capital may be used inefficiently.,95.6,False
+BAJFINANCE,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 24.4% CAGR over the last 5 years.,85.3,False
+BAJFINANCE,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 29.3% CAGR over the last 5 years.,90.8,False
+BAJFINANCE,pro,NPM > 15%,High net profit margin of 26.3%.,85.2,False
+BAJFINANCE,pro,Strong interest coverage,Comfortably covers interest obligations (2689.2x coverage).,97.0,False
+BAJFINANCE,pro,EPS CAGR > 12% (5yr),EPS has grown at a 27.6% CAGR over the last 5 years.,91.0,False
+BAJFINANCE,con,D/E > 2,High leverage with a debt-to-equity ratio of 3.82.,88.4,False
+BAJFINANCE,con,FCF negative 3yr,Free cash flow has been negative for 3 consecutive years.,85.0,False
+BAJFINANCE,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+BAJFINANCE,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -3.76) -- possible accrual risk.,80.0,False
+BAJFINANCE,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+BAJFINANCE,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+BAJFINANCE,con,Low asset turnover,Low asset turnover of 0.15x -- capital may be used inefficiently.,89.1,False
+BANKBARODA,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 17.5% CAGR over the last 5 years.,77.7,False
+BANKBARODA,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 74.5% CAGR over the last 5 years.,97.0,False
+BANKBARODA,pro,NPM > 15%,High net profit margin of 15.9%.,71.3,False
+BANKBARODA,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 3.47) -- high-quality earnings.,85.0,False
+BANKBARODA,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+BANKBARODA,pro,EPS CAGR > 12% (5yr),EPS has grown at a 55.2% CAGR over the last 5 years.,97.0,False
+BANKBARODA,con,D/E > 2,High leverage with a debt-to-equity ratio of 12.14.,97.0,False
+BANKBARODA,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+BANKBARODA,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+BANKBARODA,con,Low asset turnover,Low asset turnover of 0.07x -- capital may be used inefficiently.,93.1,False
+BEL,pro,ROE > 20%,Strong return on equity of 4744.0%. [CAUTION: based on a balance-sheet figure flagged for a possible scale inconsistency in this year -- see Sprint 2 findings; verify before relying on this.],97.0,True
+BEL,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 16.1% CAGR over the last 5 years.,76.2,False
+BEL,pro,NPM > 15%,High net profit margin of 19.7%.,76.3,False
+BEL,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.43) -- high-quality earnings.,85.0,False
+BEL,pro,Strong interest coverage,Comfortably covers interest obligations (476.8x coverage).,97.0,False
+BEL,pro,Healthy dividend payout,Balanced dividend payout ratio of 40.0% -- rewards shareholders while retaining capital.,75.0,False
+BEL,pro,ROCE > 20%,Strong return on capital employed of 3628.3%. [CAUTION: based on a balance-sheet figure flagged for a possible scale inconsistency in this year -- see Sprint 2 findings; verify before relying on this.],97.0,True
+BEL,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+BHARTIARTL,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 38.4% CAGR over the last 5 years.,97.0,False
+BHARTIARTL,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 3.33) -- high-quality earnings.,85.0,False
+BHARTIARTL,pro,EPS CAGR > 12% (5yr),EPS has grown at a 67.0% CAGR over the last 5 years.,97.0,False
+BHARTIARTL,con,D/E > 2,High leverage with a debt-to-equity ratio of 2.61.,79.5,False
+BHARTIARTL,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+BHARTIARTL,con,Low asset turnover,Low asset turnover of 0.34x -- capital may be used inefficiently.,78.7,False
+BHEL,pro,Healthy dividend payout,Balanced dividend payout ratio of 31.0% -- rewards shareholders while retaining capital.,75.0,False
+BHEL,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -2.21) -- possible accrual risk.,80.0,False
+BHEL,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+BHEL,con,Low asset turnover,Low asset turnover of 0.40x -- capital may be used inefficiently.,75.4,False
+BHEL,con,Declining revenue (5yr),Revenue has declined at a -4.7% CAGR over the last 5 years.,85.4,False
+BOSCHLTD,pro,ROE > 20%,Strong return on equity of 20.6%.,75.7,False
+BOSCHLTD,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+BOSCHLTD,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.07) -- high-quality earnings.,85.0,False
+BOSCHLTD,pro,Strong interest coverage,Comfortably covers interest obligations (71.8x coverage).,97.0,False
+BOSCHLTD,pro,Healthy dividend payout,Balanced dividend payout ratio of 44.0% -- rewards shareholders while retaining capital.,75.0,False
+BOSCHLTD,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+BOSCHLTD,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+BPCL,pro,ROE > 20%,Strong return on equity of 35.5%.,92.1,False
+BPCL,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 25.8% CAGR over the last 5 years.,86.9,False
+BPCL,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 2.49) -- high-quality earnings.,85.0,False
+BPCL,pro,Strong interest coverage,Comfortably covers interest obligations (11.4x coverage).,82.0,False
+BPCL,pro,Healthy dividend payout,Balanced dividend payout ratio of 33.0% -- rewards shareholders while retaining capital.,75.0,False
+BPCL,pro,ROCE > 20%,Strong return on capital employed of 28.6%.,84.5,False
+BPCL,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+BPCL,pro,EPS CAGR > 12% (5yr),EPS has grown at a 28.1% CAGR over the last 5 years.,91.7,False
+BPCL,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+BRITANNIA,pro,ROE > 20%,Strong return on equity of 54.1%.,97.0,False
+BRITANNIA,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.05) -- high-quality earnings.,85.0,False
+BRITANNIA,pro,Strong interest coverage,Comfortably covers interest obligations (20.6x coverage).,92.2,False
+BRITANNIA,pro,ROCE > 20%,Strong return on capital employed of 47.7%.,97.0,False
+BRITANNIA,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+BRITANNIA,pro,EPS CAGR > 12% (5yr),EPS has grown at a 13.1% CAGR over the last 5 years.,71.5,False
+BRITANNIA,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+CANBK,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 18.2% CAGR over the last 5 years.,78.5,False
+CANBK,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 85.8% CAGR over the last 5 years.,97.0,False
+CANBK,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 4.07) -- high-quality earnings.,85.0,False
+CANBK,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+CANBK,pro,EPS CAGR > 12% (5yr),EPS has grown at a 53.4% CAGR over the last 5 years.,97.0,False
+CANBK,con,D/E > 2,High leverage with a debt-to-equity ratio of 14.87.,97.0,False
+CANBK,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+CANBK,con,Low asset turnover,Low asset turnover of 0.07x -- capital may be used inefficiently.,93.1,False
+CHOLAFIN,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 21.9% CAGR over the last 5 years.,82.6,False
+CHOLAFIN,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 23.4% CAGR over the last 5 years.,84.2,False
+CHOLAFIN,pro,NPM > 15%,High net profit margin of 17.8%.,73.8,False
+CHOLAFIN,pro,Strong interest coverage,Comfortably covers interest obligations (21.2x coverage).,92.8,False
+CHOLAFIN,pro,EPS CAGR > 12% (5yr),EPS has grown at a 22.3% CAGR over the last 5 years.,83.9,False
+CHOLAFIN,con,D/E > 2,High leverage with a debt-to-equity ratio of 6.86.,97.0,False
+CHOLAFIN,con,FCF negative 3yr,Free cash flow has been negative for 3 consecutive years.,85.0,False
+CHOLAFIN,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+CHOLAFIN,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -6.20) -- possible accrual risk.,80.0,False
+CHOLAFIN,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+CHOLAFIN,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+CHOLAFIN,con,Low asset turnover,Low asset turnover of 0.12x -- capital may be used inefficiently.,90.4,False
+CIPLA,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+CIPLA,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 22.7% CAGR over the last 5 years.,83.5,False
+CIPLA,pro,NPM > 15%,High net profit margin of 16.1%.,71.5,False
+CIPLA,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.41) -- high-quality earnings.,85.0,False
+CIPLA,pro,Strong interest coverage,Comfortably covers interest obligations (35.3x coverage).,97.0,False
+CIPLA,pro,ROCE > 20%,Strong return on capital employed of 67.6%.,97.0,False
+CIPLA,pro,EPS CAGR > 12% (5yr),EPS has grown at a 21.8% CAGR over the last 5 years.,83.3,False
+CIPLA,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+CIPLA,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+COALINDIA,pro,ROE > 20%,Strong return on equity of 45.2%.,97.0,False
+COALINDIA,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+COALINDIA,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 16.4% CAGR over the last 5 years.,76.6,False
+COALINDIA,pro,NPM > 15%,High net profit margin of 26.3%.,85.2,False
+COALINDIA,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.02) -- high-quality earnings.,85.0,False
+COALINDIA,pro,Strong interest coverage,Comfortably covers interest obligations (11.2x coverage).,81.9,False
+COALINDIA,pro,Healthy dividend payout,Balanced dividend payout ratio of 42.0% -- rewards shareholders while retaining capital.,75.0,False
+COALINDIA,pro,ROCE > 20%,Strong return on capital employed of 98.2%.,97.0,False
+COALINDIA,pro,EPS CAGR > 12% (5yr),EPS has grown at a 16.9% CAGR over the last 5 years.,76.5,False
+COALINDIA,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+DABUR,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+DABUR,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.08) -- high-quality earnings.,85.0,False
+DABUR,pro,Strong interest coverage,Comfortably covers interest obligations (23.2x coverage).,95.1,False
+DABUR,pro,Healthy dividend payout,Balanced dividend payout ratio of 53.0% -- rewards shareholders while retaining capital.,75.0,False
+DABUR,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+DIVISLAB,pro,NPM > 15%,High net profit margin of 20.4%.,77.3,False
+DIVISLAB,pro,Strong interest coverage,Comfortably covers interest obligations (636.2x coverage).,97.0,False
+DIVISLAB,pro,Healthy dividend payout,Balanced dividend payout ratio of 50.0% -- rewards shareholders while retaining capital.,75.0,False
+DIVISLAB,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+DLF,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+DLF,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 15.7% CAGR over the last 5 years.,75.8,False
+DLF,pro,NPM > 15%,High net profit margin of 42.4%.,97.0,False
+DLF,pro,Strong interest coverage,Comfortably covers interest obligations (7.5x coverage).,77.7,False
+DLF,pro,Healthy dividend payout,Balanced dividend payout ratio of 45.0% -- rewards shareholders while retaining capital.,75.0,False
+DLF,pro,EPS CAGR > 12% (5yr),EPS has grown at a 12.9% CAGR over the last 5 years.,71.2,False
+DLF,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+DLF,con,Low asset turnover,Low asset turnover of 0.11x -- capital may be used inefficiently.,91.1,False
+DLF,con,Declining revenue (5yr),Revenue has declined at a -5.1% CAGR over the last 5 years.,86.3,False
+DMART,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 20.5% CAGR over the last 5 years.,81.0,False
+DMART,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 23.0% CAGR over the last 5 years.,83.8,False
+DMART,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.07) -- high-quality earnings.,85.0,False
+DMART,pro,Strong interest coverage,Comfortably covers interest obligations (73.3x coverage).,97.0,False
+DMART,pro,EPS CAGR > 12% (5yr),EPS has grown at a 22.7% CAGR over the last 5 years.,84.5,False
+DMART,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+DRREDDY,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+DRREDDY,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 23.4% CAGR over the last 5 years.,84.2,False
+DRREDDY,pro,NPM > 15%,High net profit margin of 19.9%.,76.6,False
+DRREDDY,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.34) -- high-quality earnings.,85.0,False
+DRREDDY,pro,Strong interest coverage,Comfortably covers interest obligations (51.7x coverage).,97.0,False
+DRREDDY,pro,ROCE > 20%,Strong return on capital employed of 21.4%.,76.5,False
+DRREDDY,pro,EPS CAGR > 12% (5yr),EPS has grown at a 23.8% CAGR over the last 5 years.,86.0,False
+DRREDDY,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+EICHERMOT,pro,ROE > 20%,Strong return on equity of 22.2%.,77.4,False
+EICHERMOT,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+EICHERMOT,pro,NPM > 15%,High net profit margin of 24.2%.,82.4,False
+EICHERMOT,pro,Strong interest coverage,Comfortably covers interest obligations (114.7x coverage).,97.0,False
+EICHERMOT,pro,Healthy dividend payout,Balanced dividend payout ratio of 35.0% -- rewards shareholders while retaining capital.,75.0,False
+EICHERMOT,pro,ROCE > 20%,Strong return on capital employed of 20.2%.,75.2,False
+EICHERMOT,pro,EPS CAGR > 12% (5yr),EPS has grown at a 12.5% CAGR over the last 5 years.,70.7,False
+EICHERMOT,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+GAIL,pro,Strong interest coverage,Comfortably covers interest obligations (23.6x coverage).,95.5,False
+GAIL,pro,Healthy dividend payout,Balanced dividend payout ratio of 37.0% -- rewards shareholders while retaining capital.,75.0,False
+GAIL,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+GODREJCP,pro,Fallback (no specific rule triggered),No standout strength triggered a specific rule -- financial profile is broadly unremarkable rather than notably strong on any single measure.,61.0,False
+GODREJCP,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = 0.13) -- possible accrual risk.,80.0,False
+GODREJCP,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+GODREJCP,con,Net loss (latest year),Reported a net loss in 2024-03.,90.0,False
+GRASIM,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 29.3% CAGR over the last 5 years.,90.7,False
+GRASIM,pro,EPS CAGR > 12% (5yr),EPS has grown at a 27.7% CAGR over the last 5 years.,91.2,False
+GRASIM,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+GRASIM,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+GRASIM,con,Low asset turnover,Low asset turnover of 0.32x -- capital may be used inefficiently.,79.8,False
+HAL,pro,ROE > 20%,Strong return on equity of 3816.6%. [CAUTION: based on a balance-sheet figure flagged for a possible scale inconsistency in this year -- see Sprint 2 findings; verify before relying on this.],97.0,True
+HAL,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 26.5% CAGR over the last 5 years.,87.6,False
+HAL,pro,NPM > 15%,High net profit margin of 25.0%.,83.5,False
+HAL,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.96) -- high-quality earnings.,85.0,False
+HAL,pro,Strong interest coverage,Comfortably covers interest obligations (270.9x coverage).,97.0,False
+HAL,pro,Healthy dividend payout,Balanced dividend payout ratio of 31.0% -- rewards shareholders while retaining capital.,75.0,False
+HAL,pro,ROCE > 20%,Strong return on capital employed of 2591.0%. [CAUTION: based on a balance-sheet figure flagged for a possible scale inconsistency in this year -- see Sprint 2 findings; verify before relying on this.],97.0,True
+HAL,pro,EPS CAGR > 12% (5yr),EPS has grown at a 26.6% CAGR over the last 5 years.,89.8,False
+HAL,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+HAVELLS,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.05) -- high-quality earnings.,85.0,False
+HAVELLS,pro,Strong interest coverage,Comfortably covers interest obligations (25.4x coverage).,97.0,False
+HAVELLS,pro,Healthy dividend payout,Balanced dividend payout ratio of 44.0% -- rewards shareholders while retaining capital.,75.0,False
+HAVELLS,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+HCLTECH,pro,ROE > 20%,Strong return on equity of 23.0%.,78.3,False
+HCLTECH,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+HCLTECH,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.37) -- high-quality earnings.,85.0,False
+HCLTECH,pro,Strong interest coverage,Comfortably covers interest obligations (46.5x coverage).,97.0,False
+HCLTECH,pro,ROCE > 20%,Strong return on capital employed of 27.1%.,82.8,False
+HCLTECH,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+HDFCBANK,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 22.0% CAGR over the last 5 years.,82.6,False
+HDFCBANK,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 23.9% CAGR over the last 5 years.,84.8,False
+HDFCBANK,pro,NPM > 15%,High net profit margin of 23.1%.,80.9,False
+HDFCBANK,pro,EPS CAGR > 12% (5yr),EPS has grown at a 15.4% CAGR over the last 5 years.,74.6,False
+HDFCBANK,con,D/E > 2,High leverage with a debt-to-equity ratio of 6.81.,97.0,False
+HDFCBANK,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = 0.23) -- possible accrual risk.,80.0,False
+HDFCBANK,con,Weak interest coverage,Thin interest coverage of 1.4x -- limited buffer against rising rates or earnings pressure.,80.0,False
+HDFCBANK,con,Low asset turnover,Low asset turnover of 0.07x -- capital may be used inefficiently.,93.2,False
+HDFCLIFE,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 21.2% CAGR over the last 5 years.,81.8,False
+HDFCLIFE,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 5.83) -- high-quality earnings.,85.0,False
+HDFCLIFE,pro,Strong interest coverage,Comfortably covers interest obligations (192.3x coverage).,97.0,False
+HDFCLIFE,pro,ROCE > 20%,Strong return on capital employed of 646.0%.,97.0,False
+HDFCLIFE,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+HDFCLIFE,con,Low asset turnover,Low asset turnover of 0.34x -- capital may be used inefficiently.,78.9,False
+HEROMOTOCO,pro,ROE > 20%,Strong return on equity of 21.1%.,76.3,False
+HEROMOTOCO,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+HEROMOTOCO,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.21) -- high-quality earnings.,85.0,False
+HEROMOTOCO,pro,Strong interest coverage,Comfortably covers interest obligations (47.3x coverage).,97.0,False
+HEROMOTOCO,pro,ROCE > 20%,Strong return on capital employed of 173.7%.,97.0,False
+HEROMOTOCO,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+HINDALCO,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 2.77) -- high-quality earnings.,85.0,False
+HINDALCO,pro,Strong interest coverage,Comfortably covers interest obligations (126.5x coverage).,97.0,False
+HINDALCO,pro,ROCE > 20%,Strong return on capital employed of 113.6%.,97.0,False
+HINDALCO,pro,EPS CAGR > 12% (5yr),EPS has grown at a 13.4% CAGR over the last 5 years.,71.9,False
+HINDALCO,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+HINDUNILVR,pro,ROE > 20%,Strong return on equity of 20.1%.,75.1,False
+HINDUNILVR,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+HINDUNILVR,pro,NPM > 15%,High net profit margin of 16.6%.,72.2,False
+HINDUNILVR,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.16) -- high-quality earnings.,85.0,False
+HINDUNILVR,pro,Strong interest coverage,Comfortably covers interest obligations (57.8x coverage).,97.0,False
+HINDUNILVR,pro,ROCE > 20%,Strong return on capital employed of 87.3%.,97.0,False
+HINDUNILVR,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ICICIBANK,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 17.3% CAGR over the last 5 years.,77.5,False
+ICICIBANK,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 51.9% CAGR over the last 5 years.,97.0,False
+ICICIBANK,pro,NPM > 15%,High net profit margin of 28.9%.,88.7,False
+ICICIBANK,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 3.87) -- high-quality earnings.,85.0,False
+ICICIBANK,pro,EPS CAGR > 12% (5yr),EPS has grown at a 55.2% CAGR over the last 5 years.,97.0,False
+ICICIBANK,con,D/E > 2,High leverage with a debt-to-equity ratio of 6.45.,97.0,False
+ICICIBANK,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+ICICIBANK,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ICICIBANK,con,Weak interest coverage,Thin interest coverage of 1.3x -- limited buffer against rising rates or earnings pressure.,80.0,False
+ICICIBANK,con,Low asset turnover,Low asset turnover of 0.07x -- capital may be used inefficiently.,93.4,False
+ICICIGI,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+ICICIGI,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.46) -- high-quality earnings.,85.0,False
+ICICIGI,pro,Strong interest coverage,Comfortably covers interest obligations (160.0x coverage).,97.0,False
+ICICIGI,pro,ROCE > 20%,Strong return on capital employed of 145.2%.,97.0,False
+ICICIGI,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+ICICIGI,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ICICIGI,con,Low asset turnover,Low asset turnover of 0.32x -- capital may be used inefficiently.,79.5,False
+ICICIPRULI,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 16.8% CAGR over the last 5 years.,77.0,False
+ICICIPRULI,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.93) -- high-quality earnings.,85.0,False
+ICICIPRULI,pro,Strong interest coverage,Comfortably covers interest obligations (31.0x coverage).,97.0,False
+ICICIPRULI,pro,ROCE > 20%,Strong return on capital employed of 754.0%.,97.0,False
+ICICIPRULI,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+ICICIPRULI,con,Low asset turnover,Low asset turnover of 0.30x -- capital may be used inefficiently.,80.7,False
+INDIGO,pro,ROE > 20%,Strong return on equity of 892.6%. [CAUTION: based on a balance-sheet figure flagged for a possible scale inconsistency in this year -- see Sprint 2 findings; verify before relying on this.],97.0,True
+INDIGO,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+INDIGO,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 19.3% CAGR over the last 5 years.,79.7,False
+INDIGO,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 120.7% CAGR over the last 5 years.,97.0,False
+INDIGO,pro,Strong interest coverage,Comfortably covers interest obligations (22.6x coverage).,94.4,False
+INDIGO,pro,ROCE > 20%,Strong return on capital employed of 4953.5%. [CAUTION: based on a balance-sheet figure flagged for a possible scale inconsistency in this year -- see Sprint 2 findings; verify before relying on this.],97.0,True
+INDIGO,pro,EPS CAGR > 12% (5yr),EPS has grown at a 121.2% CAGR over the last 5 years.,97.0,False
+INDIGO,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+INDIGO,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -14.34) -- possible accrual risk.,80.0,False
+INDIGO,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+INDUSINDBK,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 15.5% CAGR over the last 5 years.,75.5,False
+INDUSINDBK,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 22.1% CAGR over the last 5 years.,82.8,False
+INDUSINDBK,pro,NPM > 15%,High net profit margin of 19.6%.,76.2,False
+INDUSINDBK,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 2.61) -- high-quality earnings.,85.0,False
+INDUSINDBK,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+INDUSINDBK,pro,EPS CAGR > 12% (5yr),EPS has grown at a 15.9% CAGR over the last 5 years.,75.3,False
+INDUSINDBK,con,D/E > 2,High leverage with a debt-to-equity ratio of 6.89.,97.0,False
+INDUSINDBK,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+INDUSINDBK,con,Low asset turnover,Low asset turnover of 0.09x -- capital may be used inefficiently.,92.2,False
+INFY,pro,ROE > 20%,Strong return on equity of 29.8%.,85.8,False
+INFY,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+INFY,pro,NPM > 15%,High net profit margin of 17.1%.,72.8,False
+INFY,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.04) -- high-quality earnings.,85.0,False
+INFY,pro,Strong interest coverage,Comfortably covers interest obligations (87.5x coverage).,97.0,False
+INFY,pro,ROCE > 20%,Strong return on capital employed of 32.9%.,89.2,False
+INFY,pro,EPS CAGR > 12% (5yr),EPS has grown at a 12.5% CAGR over the last 5 years.,70.6,False
+INFY,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+IOC,pro,ROE > 20%,Strong return on equity of 23.5%.,78.9,False
+IOC,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 20.1% CAGR over the last 5 years.,80.6,False
+IOC,pro,Strong interest coverage,Comfortably covers interest obligations (10.3x coverage).,80.8,False
+IOC,pro,Healthy dividend payout,Balanced dividend payout ratio of 40.0% -- rewards shareholders while retaining capital.,75.0,False
+IOC,pro,EPS CAGR > 12% (5yr),EPS has grown at a 20.1% CAGR over the last 5 years.,81.0,False
+IOC,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+IRCTC,pro,ROE > 20%,Strong return on equity of 34.4%.,90.8,False
+IRCTC,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 18.0% CAGR over the last 5 years.,78.3,False
+IRCTC,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 29.2% CAGR over the last 5 years.,90.6,False
+IRCTC,pro,NPM > 15%,High net profit margin of 26.0%.,84.9,False
+IRCTC,pro,Strong interest coverage,Comfortably covers interest obligations (82.7x coverage).,97.0,False
+IRCTC,pro,Healthy dividend payout,Balanced dividend payout ratio of 47.0% -- rewards shareholders while retaining capital.,75.0,False
+IRCTC,pro,ROCE > 20%,Strong return on capital employed of 42.8%.,97.0,False
+IRCTC,pro,EPS CAGR > 12% (5yr),EPS has grown at a 28.5% CAGR over the last 5 years.,92.2,False
+IRCTC,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+IRFC,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 19.1% CAGR over the last 5 years.,79.5,False
+IRFC,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 23.2% CAGR over the last 5 years.,84.1,False
+IRFC,pro,NPM > 15%,High net profit margin of 24.1%.,82.2,False
+IRFC,pro,Healthy dividend payout,Balanced dividend payout ratio of 31.0% -- rewards shareholders while retaining capital.,75.0,False
+IRFC,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+IRFC,pro,EPS CAGR > 12% (5yr),EPS has grown at a 20.1% CAGR over the last 5 years.,81.0,False
+IRFC,con,D/E > 2,High leverage with a debt-to-equity ratio of 8.38.,97.0,False
+IRFC,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -10.80) -- possible accrual risk.,80.0,False
+IRFC,con,Weak interest coverage,Thin interest coverage of 1.3x -- limited buffer against rising rates or earnings pressure.,80.0,False
+IRFC,con,Low asset turnover,Low asset turnover of 0.05x -- capital may be used inefficiently.,94.0,False
+ITC,pro,ROE > 20%,Strong return on equity of 27.9%.,83.6,False
+ITC,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+ITC,pro,NPM > 15%,High net profit margin of 29.3%.,89.3,False
+ITC,pro,Strong interest coverage,Comfortably covers interest obligations (363.0x coverage).,97.0,False
+ITC,pro,ROCE > 20%,Strong return on capital employed of 32.6%.,88.9,False
+ITC,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+ITC,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+JINDALSTEL,pro,Strong interest coverage,Comfortably covers interest obligations (8.0x coverage).,78.3,False
+JINDALSTEL,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -2.80) -- possible accrual risk.,80.0,False
+JINDALSTEL,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+JIOFIN,pro,Debt-free,Company carries zero debt.,90.0,False
+JIOFIN,pro,NPM > 15%,High net profit margin of 86.5%.,97.0,False
+JIOFIN,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 32.93) -- high-quality earnings.,85.0,False
+JIOFIN,pro,Strong interest coverage,Comfortably covers interest obligations (198.8x coverage).,97.0,False
+JIOFIN,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+JIOFIN,con,Low asset turnover,Low asset turnover of 0.01x -- capital may be used inefficiently.,96.3,False
+JSWENERGY,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 20.3% CAGR over the last 5 years.,80.9,False
+JSWENERGY,pro,NPM > 15%,High net profit margin of 15.0%.,70.0,False
+JSWENERGY,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 2.63) -- high-quality earnings.,85.0,False
+JSWENERGY,pro,EPS CAGR > 12% (5yr),EPS has grown at a 20.1% CAGR over the last 5 years.,81.0,False
+JSWENERGY,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+JSWENERGY,con,Low asset turnover,Low asset turnover of 0.20x -- capital may be used inefficiently.,86.3,False
+JSWSTEEL,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 15.6% CAGR over the last 5 years.,75.7,False
+JSWSTEEL,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 2.78) -- high-quality earnings.,85.0,False
+JSWSTEEL,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+KOTAKBANK,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 20.4% CAGR over the last 5 years.,80.9,False
+KOTAKBANK,pro,NPM > 15%,High net profit margin of 32.4%.,93.5,False
+KOTAKBANK,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.48) -- high-quality earnings.,85.0,False
+KOTAKBANK,pro,EPS CAGR > 12% (5yr),EPS has grown at a 19.3% CAGR over the last 5 years.,79.9,False
+KOTAKBANK,con,D/E > 2,High leverage with a debt-to-equity ratio of 4.00.,89.7,False
+KOTAKBANK,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+KOTAKBANK,con,Weak interest coverage,Thin interest coverage of 1.2x -- limited buffer against rising rates or earnings pressure.,80.0,False
+KOTAKBANK,con,Low asset turnover,Low asset turnover of 0.07x -- capital may be used inefficiently.,93.0,False
+LICI,pro,ROE > 20%,Strong return on equity of 49.4%.,97.0,False
+LICI,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+LICI,pro,Debt-free,Company carries zero debt.,90.0,False
+LICI,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 73.2% CAGR over the last 5 years.,97.0,False
+LICI,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 9.68) -- high-quality earnings.,85.0,False
+LICI,pro,Strong interest coverage,Comfortably covers interest obligations (371.9x coverage).,97.0,False
+LICI,pro,ROCE > 20%,Strong return on capital employed of 39.1%.,96.0,False
+LICI,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+LICI,con,Low asset turnover,Low asset turnover of 0.16x -- capital may be used inefficiently.,88.4,False
+LODHA,pro,NPM > 15%,High net profit margin of 15.1%.,70.1,False
+LODHA,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 13.31) -- high-quality earnings.,85.0,False
+LODHA,pro,Strong interest coverage,Comfortably covers interest obligations (5.6x coverage).,75.7,False
+LODHA,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+LODHA,con,Low asset turnover,Low asset turnover of 0.22x -- capital may be used inefficiently.,85.2,False
+LODHA,con,Declining revenue (5yr),Revenue has declined at a -2.8% CAGR over the last 5 years.,81.2,False
+LT,pro,ROE > 20%,Strong return on equity of 77.7%.,97.0,False
+LT,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.45) -- high-quality earnings.,85.0,False
+LT,pro,Healthy dividend payout,Balanced dividend payout ratio of 36.0% -- rewards shareholders while retaining capital.,75.0,False
+LT,pro,ROCE > 20%,Strong return on capital employed of 118.5%.,97.0,False
+LT,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+LT,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+LTIM,pro,ROE > 20%,Strong return on equity of 22.9%.,78.2,False
+LTIM,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+LTIM,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 30.3% CAGR over the last 5 years.,91.9,False
+LTIM,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 24.8% CAGR over the last 5 years.,85.8,False
+LTIM,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.02) -- high-quality earnings.,85.0,False
+LTIM,pro,Strong interest coverage,Comfortably covers interest obligations (31.9x coverage).,97.0,False
+LTIM,pro,Healthy dividend payout,Balanced dividend payout ratio of 42.0% -- rewards shareholders while retaining capital.,75.0,False
+LTIM,pro,ROCE > 20%,Strong return on capital employed of 25.2%.,80.7,False
+LTIM,pro,EPS CAGR > 12% (5yr),EPS has grown at a 12.2% CAGR over the last 5 years.,70.3,False
+LTIM,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+LTIM,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+M&M,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 15.3% CAGR over the last 5 years.,75.3,False
+M&M,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 3.32) -- high-quality earnings.,85.0,False
+M&M,pro,EPS CAGR > 12% (5yr),EPS has grown at a 16.2% CAGR over the last 5 years.,75.6,False
+M&M,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+MARUTI,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+MARUTI,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.13) -- high-quality earnings.,85.0,False
+MARUTI,pro,Strong interest coverage,Comfortably covers interest obligations (117.9x coverage).,97.0,False
+MARUTI,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+MOTHERSON,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+MOTHERSON,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 3.10) -- high-quality earnings.,85.0,False
+MOTHERSON,pro,Strong interest coverage,Comfortably covers interest obligations (5.2x coverage).,75.2,False
+MOTHERSON,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+NAUKRI,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 17.1% CAGR over the last 5 years.,77.3,False
+NAUKRI,pro,NPM > 15%,High net profit margin of 23.5%.,81.4,False
+NAUKRI,pro,Strong interest coverage,Comfortably covers interest obligations (29.0x coverage).,97.0,False
+NAUKRI,pro,Healthy dividend payout,Balanced dividend payout ratio of 49.0% -- rewards shareholders while retaining capital.,75.0,False
+NAUKRI,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -1.46) -- possible accrual risk.,80.0,False
+NAUKRI,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+NAUKRI,con,Low asset turnover,Low asset turnover of 0.07x -- capital may be used inefficiently.,93.2,False
+NESTLEIND,pro,ROE > 20%,Strong return on equity of 117.8%.,97.0,False
+NESTLEIND,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+NESTLEIND,pro,NPM > 15%,High net profit margin of 16.1%.,71.5,False
+NESTLEIND,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.11) -- high-quality earnings.,85.0,False
+NESTLEIND,pro,Strong interest coverage,Comfortably covers interest obligations (41.2x coverage).,97.0,False
+NESTLEIND,pro,ROCE > 20%,Strong return on capital employed of 143.1%.,97.0,False
+NESTLEIND,pro,EPS CAGR > 12% (5yr),EPS has grown at a 15.4% CAGR over the last 5 years.,74.6,False
+NESTLEIND,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+NHPC,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+NHPC,pro,NPM > 15%,High net profit margin of 41.8%.,97.0,False
+NHPC,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.27) -- high-quality earnings.,85.0,False
+NHPC,pro,Strong interest coverage,Comfortably covers interest obligations (11.2x coverage).,81.9,False
+NHPC,pro,Healthy dividend payout,Balanced dividend payout ratio of 53.0% -- rewards shareholders while retaining capital.,75.0,False
+NHPC,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+NHPC,con,Low asset turnover,Low asset turnover of 0.10x -- capital may be used inefficiently.,91.4,False
+NTPC,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 2.26) -- high-quality earnings.,85.0,False
+NTPC,pro,Healthy dividend payout,Balanced dividend payout ratio of 36.0% -- rewards shareholders while retaining capital.,75.0,False
+NTPC,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+NTPC,con,Low asset turnover,Low asset turnover of 0.37x -- capital may be used inefficiently.,76.9,False
+ONGC,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+ONGC,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 2.86) -- high-quality earnings.,85.0,False
+ONGC,pro,Strong interest coverage,Comfortably covers interest obligations (11.4x coverage).,82.0,False
+ONGC,pro,Healthy dividend payout,Balanced dividend payout ratio of 31.0% -- rewards shareholders while retaining capital.,75.0,False
+ONGC,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+PFC,pro,ROE > 20%,Strong return on equity of 26.2%.,81.8,False
+PFC,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 15.9% CAGR over the last 5 years.,76.0,False
+PFC,pro,NPM > 15%,High net profit margin of 28.9%.,88.8,False
+PFC,pro,EPS CAGR > 12% (5yr),EPS has grown at a 14.9% CAGR over the last 5 years.,73.9,False
+PFC,con,D/E > 2,High leverage with a debt-to-equity ratio of 8.52.,97.0,False
+PFC,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -3.03) -- possible accrual risk.,80.0,False
+PFC,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+PFC,con,Weak interest coverage,Thin interest coverage of 0.6x -- limited buffer against rising rates or earnings pressure.,80.0,False
+PFC,con,Low asset turnover,Low asset turnover of 0.09x -- capital may be used inefficiently.,92.2,False
+PIDILITIND,pro,ROE > 20%,Strong return on equity of 20.8%.,75.9,False
+PIDILITIND,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.19) -- high-quality earnings.,85.0,False
+PIDILITIND,pro,Strong interest coverage,Comfortably covers interest obligations (54.3x coverage).,97.0,False
+PIDILITIND,pro,Healthy dividend payout,Balanced dividend payout ratio of 47.0% -- rewards shareholders while retaining capital.,75.0,False
+PIDILITIND,pro,ROCE > 20%,Strong return on capital employed of 26.9%.,82.6,False
+PIDILITIND,pro,EPS CAGR > 12% (5yr),EPS has grown at a 13.6% CAGR over the last 5 years.,72.1,False
+PIDILITIND,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+PNB,pro,ROE > 20%,Strong return on equity of 61.3%.,97.0,False
+PNB,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 15.9% CAGR over the last 5 years.,76.0,False
+PNB,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+PNB,con,D/E > 2,High leverage with a debt-to-equity ratio of 3.68.,87.4,False
+PNB,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -1.22) -- possible accrual risk.,80.0,False
+PNB,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+POWERGRID,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+POWERGRID,pro,NPM > 15%,High net profit margin of 34.0%.,95.6,False
+POWERGRID,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 2.36) -- high-quality earnings.,85.0,False
+POWERGRID,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+POWERGRID,con,Low asset turnover,Low asset turnover of 0.18x -- capital may be used inefficiently.,87.1,False
+RECLTD,pro,ROE > 20%,Strong return on equity of 20.4%.,75.4,False
+RECLTD,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 19.8% CAGR over the last 5 years.,80.2,False
+RECLTD,pro,NPM > 15%,High net profit margin of 29.8%.,89.9,False
+RECLTD,pro,Healthy dividend payout,Balanced dividend payout ratio of 30.0% -- rewards shareholders while retaining capital.,75.0,False
+RECLTD,pro,EPS CAGR > 12% (5yr),EPS has grown at a 19.7% CAGR over the last 5 years.,80.4,False
+RECLTD,con,D/E > 2,High leverage with a debt-to-equity ratio of 6.42.,97.0,False
+RECLTD,con,FCF negative 3yr,Free cash flow has been negative for 3 consecutive years.,85.0,False
+RECLTD,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -3.86) -- possible accrual risk.,80.0,False
+RECLTD,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+RECLTD,con,Low asset turnover,Low asset turnover of 0.09x -- capital may be used inefficiently.,92.3,False
+RELIANCE,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.61) -- high-quality earnings.,85.0,False
+RELIANCE,pro,Strong interest coverage,Comfortably covers interest obligations (7.7x coverage).,78.0,False
+RELIANCE,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+SBILIFE,pro,Debt-free,Company carries zero debt.,90.0,False
+SBILIFE,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 24.2% CAGR over the last 5 years.,85.2,False
+SBILIFE,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 15.30) -- high-quality earnings.,85.0,False
+SBILIFE,pro,Strong interest coverage,Comfortably covers interest obligations (240.3x coverage).,97.0,False
+SBILIFE,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+SBILIFE,con,Low asset turnover,Low asset turnover of 0.33x -- capital may be used inefficiently.,79.1,False
+SBIN,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 83.4% CAGR over the last 5 years.,97.0,False
+SBIN,pro,NPM > 15%,High net profit margin of 15.8%.,71.1,False
+SBIN,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.05) -- high-quality earnings.,85.0,False
+SBIN,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+SBIN,pro,EPS CAGR > 12% (5yr),EPS has grown at a 90.4% CAGR over the last 5 years.,97.0,False
+SBIN,con,Weak interest coverage,Thin interest coverage of 0.4x -- limited buffer against rising rates or earnings pressure.,80.0,False
+SHREECEM,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.90) -- high-quality earnings.,85.0,False
+SHREECEM,pro,Strong interest coverage,Comfortably covers interest obligations (19.8x coverage).,91.3,False
+SHREECEM,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+SHRIRAMFIN,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 18.6% CAGR over the last 5 years.,78.9,False
+SHRIRAMFIN,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 23.5% CAGR over the last 5 years.,84.3,False
+SHRIRAMFIN,pro,NPM > 15%,High net profit margin of 20.3%.,77.2,False
+SHRIRAMFIN,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+SHRIRAMFIN,pro,EPS CAGR > 12% (5yr),EPS has grown at a 14.3% CAGR over the last 5 years.,73.1,False
+SHRIRAMFIN,con,D/E > 2,High leverage with a debt-to-equity ratio of 3.99.,89.6,False
+SHRIRAMFIN,con,FCF negative 3yr,Free cash flow has been negative for 3 consecutive years.,85.0,False
+SHRIRAMFIN,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -2.61) -- possible accrual risk.,80.0,False
+SHRIRAMFIN,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+SHRIRAMFIN,con,Weak interest coverage,Thin interest coverage of 0.7x -- limited buffer against rising rates or earnings pressure.,80.0,False
+SHRIRAMFIN,con,Low asset turnover,Low asset turnover of 0.15x -- capital may be used inefficiently.,89.1,False
+SIEMENS,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 19.9% CAGR over the last 5 years.,80.3,False
+SIEMENS,pro,Strong interest coverage,Comfortably covers interest obligations (67.2x coverage).,97.0,False
+SIEMENS,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+SIEMENS,pro,EPS CAGR > 12% (5yr),EPS has grown at a 19.6% CAGR over the last 5 years.,80.3,False
+SIEMENS,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+SUNPHARMA,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 24.5% CAGR over the last 5 years.,85.5,False
+SUNPHARMA,pro,NPM > 15%,High net profit margin of 19.8%.,76.5,False
+SUNPHARMA,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.76) -- high-quality earnings.,85.0,False
+SUNPHARMA,pro,Strong interest coverage,Comfortably covers interest obligations (58.3x coverage).,97.0,False
+SUNPHARMA,pro,Healthy dividend payout,Balanced dividend payout ratio of 34.0% -- rewards shareholders while retaining capital.,75.0,False
+SUNPHARMA,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+SUNPHARMA,pro,EPS CAGR > 12% (5yr),EPS has grown at a 29.5% CAGR over the last 5 years.,93.6,False
+SUNPHARMA,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+TATACONSUM,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+TATACONSUM,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 16.0% CAGR over the last 5 years.,76.1,False
+TATACONSUM,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 21.6% CAGR over the last 5 years.,82.3,False
+TATACONSUM,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.67) -- high-quality earnings.,85.0,False
+TATACONSUM,pro,Strong interest coverage,Comfortably covers interest obligations (25.3x coverage).,97.0,False
+TATACONSUM,pro,EPS CAGR > 12% (5yr),EPS has grown at a 14.9% CAGR over the last 5 years.,73.9,False
+TATACONSUM,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+TATAMOTORS,pro,ROE > 20%,Strong return on equity of 37.5%.,94.2,False
+TATAMOTORS,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.93) -- high-quality earnings.,85.0,False
+TATAMOTORS,pro,Strong interest coverage,Comfortably covers interest obligations (6.5x coverage).,76.7,False
+TATAMOTORS,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+TATAPOWER,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 15.5% CAGR over the last 5 years.,75.6,False
+TATAPOWER,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 3.87) -- high-quality earnings.,85.0,False
+TATAPOWER,con,Capital intensive,Capital-intensive business (CapEx intensity above 8% of sales).,75.0,False
+TATAPOWER,con,Low asset turnover,Low asset turnover of 0.44x -- capital may be used inefficiently.,73.1,False
+TATASTEEL,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+TATASTEEL,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 4.44) -- high-quality earnings.,85.0,False
+TATASTEEL,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+TATASTEEL,con,Net loss (latest year),Reported a net loss in 2024-03.,90.0,False
+TCS,pro,ROE > 20%,Strong return on equity of 50.9%.,97.0,False
+TCS,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+TCS,pro,NPM > 15%,High net profit margin of 19.1%.,75.6,False
+TCS,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.04) -- high-quality earnings.,85.0,False
+TCS,pro,Strong interest coverage,Comfortably covers interest obligations (87.1x coverage).,97.0,False
+TCS,pro,Healthy dividend payout,Balanced dividend payout ratio of 58.0% -- rewards shareholders while retaining capital.,75.0,False
+TCS,pro,ROCE > 20%,Strong return on capital employed of 60.2%.,97.0,False
+TCS,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+TCS,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+TECHM,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+TECHM,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.54) -- high-quality earnings.,85.0,False
+TECHM,pro,Strong interest coverage,Comfortably covers interest obligations (13.9x coverage).,84.7,False
+TECHM,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+TECHM,con,OPM declining,Operating profit margin has declined for 3 consecutive years.,75.0,False
+TECHM,con,Payout exceeds earnings,Dividend payout of 150% exceeds reported earnings.,85.0,False
+TITAN,pro,ROE > 20%,Strong return on equity of 37.2%.,93.9,False
+TITAN,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 20.9% CAGR over the last 5 years.,81.5,False
+TITAN,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 20.3% CAGR over the last 5 years.,80.8,False
+TITAN,pro,Strong interest coverage,Comfortably covers interest obligations (9.4x coverage).,79.9,False
+TITAN,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+TITAN,pro,EPS CAGR > 12% (5yr),EPS has grown at a 19.5% CAGR over the last 5 years.,80.1,False
+TITAN,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+TORNTPHARM,pro,ROE > 20%,Strong return on equity of 24.2%.,79.6,False
+TORNTPHARM,pro,FCF positive 5yr,Free cash flow has been positive for 5 consecutive years -- consistent cash generation.,90.0,False
+TORNTPHARM,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 30.6% CAGR over the last 5 years.,92.2,False
+TORNTPHARM,pro,NPM > 15%,High net profit margin of 15.4%.,70.6,False
+TORNTPHARM,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.83) -- high-quality earnings.,85.0,False
+TORNTPHARM,pro,Strong interest coverage,Comfortably covers interest obligations (9.9x coverage).,80.4,False
+TORNTPHARM,pro,Healthy dividend payout,Balanced dividend payout ratio of 57.0% -- rewards shareholders while retaining capital.,75.0,False
+TORNTPHARM,pro,ROCE > 20%,Strong return on capital employed of 23.5%.,78.9,False
+TORNTPHARM,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+TORNTPHARM,pro,EPS CAGR > 12% (5yr),EPS has grown at a 30.4% CAGR over the last 5 years.,94.8,False
+TORNTPHARM,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+TRENT,pro,ROE > 20%,Strong return on equity of 36.3%.,92.9,False
+TRENT,pro,Revenue CAGR > 15% (5yr),Revenue has grown at a 36.3% CAGR over the last 5 years.,97.0,False
+TRENT,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 73.1% CAGR over the last 5 years.,97.0,False
+TRENT,pro,High CFO quality,Operating cash flow has consistently exceeded reported profit (5yr avg CFO/PAT = 1.18) -- high-quality earnings.,85.0,False
+TRENT,pro,Strong interest coverage,Comfortably covers interest obligations (8.0x coverage).,78.3,False
+TRENT,pro,ROCE > 20%,Strong return on capital employed of 22.3%.,77.6,False
+TRENT,pro,EPS CAGR > 12% (5yr),EPS has grown at a 69.5% CAGR over the last 5 years.,97.0,False
+TRENT,con,Fallback (no specific rule triggered),"No specific risk factor triggered a rule -- this reflects the absence of a flagged weakness among the metrics checked, not a clean bill of health.",61.0,False
+TVSMOTOR,pro,ROE > 20%,Strong return on equity of 26.2%.,81.8,False
+TVSMOTOR,pro,PAT CAGR > 15% (5yr),Net profit has grown at a 19.7% CAGR over the last 5 years.,80.1,False
+TVSMOTOR,pro,Asset-light (low CapEx intensity),Asset-light business model (CapEx intensity under 3% of sales).,75.0,False
+TVSMOTOR,pro,EPS CAGR > 12% (5yr),EPS has grown at a 19.1% CAGR over the last 5 years.,79.6,False
+TVSMOTOR,con,D/E > 2,High leverage with a debt-to-equity ratio of 3.83.,88.4,False
+TVSMOTOR,con,FCF negative 3yr,Free cash flow has been negative for 3 consecutive years.,85.0,False
+TVSMOTOR,con,Accrual risk,Operating cash flow has lagged reported profit (5yr avg CFO/PAT = -0.75) -- possible accrual risk.,80.0,False
+TVSMOTOR,con,Distress pattern,Operating cash flow is negative while the company is raising external funding -- a distress pattern worth watching.,85.0,False
+HDFCBANK,pro,Manual (analyst-written),Company is expected to give good quarter,100.0,False
+HDFCBANK,con,Manual (analyst-written),Stock is trading at 2.76 times its book value,100.0,False
+HDFCBANK,pro,Manual (analyst-written),Company has delivered good profit growth of 23.4% CAGR over last 5 years,100.0,False
+HDFCBANK,con,Manual (analyst-written),Company has low interest coverage ratio.,100.0,False
+HDFCBANK,pro,Manual (analyst-written),Company has been maintaining a healthy dividend payout of 22.9%,100.0,False
+HDFCBANK,con,Manual (analyst-written),"Contingent liabilities of Rs.24,09,821 Cr.",100.0,False
+HDFCBANK,pro,Manual (analyst-written),Company's median sales growth is 16.4% of last 10 years,100.0,False
+HDFCBANK,con,Manual (analyst-written),"Earnings include an other income of Rs.1,55,870 Cr.",100.0,False
+SBILIFE,pro,Manual (analyst-written),Company is almost debt free.,100.0,False
+SBILIFE,con,Manual (analyst-written),Stock is trading at 9.11 times its book value,100.0,False
+SBILIFE,pro,Manual (analyst-written),Company is expected to give good quarter,100.0,False
+SBILIFE,con,Manual (analyst-written),Tax rate seems low,100.0,False
+SBILIFE,con,Manual (analyst-written),Company has a low return on equity of 12.9% over last 3 years.,100.0,False
+SBILIFE,con,Manual (analyst-written),"Earnings include an other income of Rs.1,657 Cr.",100.0,False
+SBILIFE,con,Manual (analyst-written),Dividend payout has been low at 14.0% of profits over last 3 years,100.0,False
+INFY,pro,Manual (analyst-written),Company has a good return on equity (ROE) track record: 3 Years ROE 30.9%,100.0,False
+INFY,con,Manual (analyst-written),Stock is trading at 9.03 times its book value,100.0,False
+INFY,pro,Manual (analyst-written),Company has been maintaining a healthy dividend payout of 63.3%,100.0,False
+INFY,con,Manual (analyst-written),Promoter holding is low: 14.4%,100.0,False
+TCS,pro,Manual (analyst-written),Company is almost debt free.,100.0,False
+TCS,con,Manual (analyst-written),Stock is trading at 15.2 times its book value,100.0,False
+TCS,pro,Manual (analyst-written),Company has a good return on equity (ROE) track record: 3 Years ROE 47.4%,100.0,False
+TCS,con,Manual (analyst-written),The company has delivered a poor sales growth of 10.5% over past five years.,100.0,False
+TCS,pro,Manual (analyst-written),Company has been maintaining a healthy dividend payout of 66.2%,100.0,False
