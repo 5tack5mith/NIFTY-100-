@@ -83,6 +83,59 @@ def load_prosandcons(path: str) -> pd.DataFrame:
     return df
 
 
+def load_sectors(path: str) -> pd.DataFrame:
+    """Load sectors.xlsx (supplementary) -- 1:1 sector mapping for all 92 companies."""
+    df = pd.read_excel(path, header=0)
+    df["company_id"] = df["company_id"].apply(normalize_ticker)
+    return df
+
+
+def load_stock_prices(path: str) -> pd.DataFrame:
+    """Load stock_prices.xlsx (supplementary) -- simulated monthly OHLCV.
+
+    date is already a clean 'YYYY-MM-DD' string in the source file -- it's
+    a calendar date, not a financial-year label, so normalize_year() (which
+    only understands FY-style formats like 'Mar-23') doesn't apply here.
+    """
+    df = pd.read_excel(path, header=0)
+    df["company_id"] = df["company_id"].apply(normalize_ticker)
+    return df
+
+
+def load_market_cap(path: str) -> pd.DataFrame:
+    """Load market_cap.xlsx (supplementary) -- simulated annual valuation multiples.
+
+    year is a plain calendar-year int (2019-2024) here, not the 'Mon-YY'
+    financial-year label the core files use -- already clean, no
+    normalize_year() needed.
+    """
+    df = pd.read_excel(path, header=0)
+    df["company_id"] = df["company_id"].apply(normalize_ticker)
+    return df
+
+
+def load_financial_ratios(path: str) -> pd.DataFrame:
+    """Load financial_ratios.xlsx (supplementary) -- pre-computed KPI table.
+
+    Unlike market_cap, this file's year column IS in a normalize_year()-
+    compatible format ('Mar 2014', 'Dec 2012') -- easy to miss since it
+    looks similar to market_cap's plain int year at a glance, but it's a
+    financial-year label, not a calendar year, so it goes through the same
+    normaliser as the core P&L/BS/CF tables.
+    """
+    df = pd.read_excel(path, header=0)
+    df["company_id"] = df["company_id"].apply(normalize_ticker)
+    df["year"] = df["year"].apply(normalize_year)
+    return df
+
+
+def load_peer_groups(path: str) -> pd.DataFrame:
+    """Load peer_groups.xlsx (supplementary) -- many-to-many company/group membership."""
+    df = pd.read_excel(path, header=0)
+    df["company_id"] = df["company_id"].apply(normalize_ticker)
+    return df
+
+
 if __name__ == "__main__":
     # Quick manual smoke test when run directly: python loader.py
     RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "data", "raw")
